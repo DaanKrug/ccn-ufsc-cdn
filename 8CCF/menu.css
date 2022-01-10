@@ -1,0 +1,71 @@
+ul#menu, ul#menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#menu {
+	width: 100%;
+	color: #fff;
+	font: bold 11px 'Verdana';
+
+}
+
+
+ul#menu ul {
+	color: #000;
+	font: normal 10px 'Verdana';
+	border: 1px solid #83AAD1; border-top-width: 0px;
+}
+
+ul#menu li {
+	padding: 0;
+	background: #165189;
+}
+
+ul#menu span {
+	display: block;
+
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+}
+
+ul#menu span a {
+	padding: 0;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: normal;
+
+}
+
+ul#menu li li {
+	font-size:10px;
+	padding: 1px;
+	background: #C7D3EB;
+}
+
+ul#menu .destaque {
+
+	font-weight: bold;
+	background: #9BB0DB url(../img/bomb.gif) no-repeat right;
+}
+
+ul#menu a
+{
+	color: #000;
+	font: inherit;
+	font-size: 10px;
+	font-weight: normal;
+	display: block;
+	padding: 3px 0 3px 10px;
+	text-decoration: none;
+}
+
+ul#menu a:hover
+{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #7D0909;
+}
