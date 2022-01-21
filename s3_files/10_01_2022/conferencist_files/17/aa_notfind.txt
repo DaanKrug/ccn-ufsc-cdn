@@ -1,2 +1,0 @@
-insert into pessoas(nome,email1,cpf,instituicao,created) values('Sem Nome Ajustar Inscricao','sememail@ajustar.inscricao','09141920949','Sem Instituicao','2019-09-23 07:52:38');
-insert into inscricoes(pessoa_id,evento_id,situacao,categoria_id,participou_evento,created) values((select id from pessoas where cpf = '09141920949' and email1 = 'sememail@ajustar.inscricao' and id > 7410 and created = '2019-09-23 07:52:38' limit 1),11,2,1,'Y','2019-09-23 07:52:38');
